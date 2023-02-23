@@ -70,41 +70,87 @@ export default defineComponent({
     })
 
     const selectDataDeve = async() => {
-      initModelInfo.request().then((res) => {
-        const data = Object.entries(res.nodeRule).map(([key, item]) => ({
-          title: key,
-          options: item.map((item2) => ({
-            shape: 'imageText',
-            // 还有什么属性可以加在这一层
-            attrs: { // 这一层可以添加放入其他的数据
-              moduleData: item2,
-              label: { // 组件名称
-                text: item2.name || item2.description,
-              },
-              body: { // 可以不用要
-                stroke: item2.enabled === false ? '#8e8f8f' : '#CDEAFF',
-                fill: item2.enabled === false ? '#8e8f8f' : '#CDEAFF',
-              },
-              background: { // 可以不用要
-                stroke: item2.enabled === false ? '#8e8f8f' : '#CDEAFF',
-                fill: item2.enabled === false ? '#8e8f8f' : '#CDEAFF',
-              },
-              image: { // 图片地址 svg 格式
-                'xlink:href': item2.icon ? `/admin/flowChart/icon/${item2.icon}` : '/admin/flowChart/icon/card.svg',
+
+      graph.upDateStencil({
+        title: '数据开发',
+        layoutOptions: {
+          columns: 4,
+          columnWidth: 50,
+        },
+        nodeOppoOption: [{
+          title: '测试',
+          options: [
+            {
+              shape: 'imageText',
+              // 还有什么属性可以加在这一层
+              attrs: { // 这一层可以添加放入其他的数据
+                moduleData: {},
+                label: { // 组件名称
+                  text: '图案',
+                },
+                body: { // 可以不用要
+                  stroke: '#CDEAFF',
+                  fill: '#CDEAFF',
+                },
+                background: { // 可以不用要
+                  stroke: '#CDEAFF',
+                  fill: '#CDEAFF',
+                },
+                image: { // 图片地址 svg 格式
+                  'xlink:href': '/admin/flowChart/icon/card.svg',
+                },
               },
             },
-          }))
-        }))
-
-        graph.upDateStencil({
-          title: '数据开发',
-          layoutOptions: {
-            columns: 4,
-            columnWidth: 50,
-          },
-          nodeOppoOption: data,
-        })
-      });
+            {
+              shape: 'imageText',
+              // 还有什么属性可以加在这一层
+              attrs: { // 这一层可以添加放入其他的数据
+                moduleData: {},
+                label: { // 组件名称
+                  text: '图案2',
+                },
+                body: { // 可以不用要
+                  stroke: '#CDEAFF',
+                  fill: '#CDEAFF',
+                },
+                background: { // 可以不用要
+                  stroke: '#CDEAFF',
+                  fill: '#CDEAFF',
+                },
+                image: { // 图片地址 svg 格式
+                  'xlink:href': '/admin/flowChart/icon/card.svg',
+                },
+              },
+            }
+          ]
+        }],
+      })
+      // initModelInfo.request().then((res) => {
+      //   const data = Object.entries(res.nodeRule).map(([key, item]) => ({
+      //     title: key,
+      //     options: item.map((item2) => ({
+      //       shape: 'imageText',
+      //       // 还有什么属性可以加在这一层
+      //       attrs: { // 这一层可以添加放入其他的数据
+      //         moduleData: item2,
+      //         label: { // 组件名称
+      //           text: item2.name || item2.description,
+      //         },
+      //         body: { // 可以不用要
+      //           stroke: item2.enabled === false ? '#8e8f8f' : '#CDEAFF',
+      //           fill: item2.enabled === false ? '#8e8f8f' : '#CDEAFF',
+      //         },
+      //         background: { // 可以不用要
+      //           stroke: item2.enabled === false ? '#8e8f8f' : '#CDEAFF',
+      //           fill: item2.enabled === false ? '#8e8f8f' : '#CDEAFF',
+      //         },
+      //         image: { // 图片地址 svg 格式
+      //           'xlink:href': item2.icon ? `/admin/flowChart/icon/${item2.icon}` : '/admin/flowChart/icon/card.svg',
+      //         },
+      //       },
+      //     }))
+      //   }))
+      // });
 
     }
 

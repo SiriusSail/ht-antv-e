@@ -6,9 +6,9 @@ import { demandManage } from "./demandManage";
 
 // 静态路由
 export const constantRoutes: Array<RouteRecordRaw> = [
-  // ...hwRoutes,
-  // ...demandManage,
-  // ...flowchartRouter,
+  ...hwRoutes,
+  ...demandManage,
+  ...flowchartRouter,
   {
     path: "/",
     component: layout,
