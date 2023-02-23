@@ -1,0 +1,84 @@
+// global transition css
+
+/* fade */
+.fade-enter-active,
+// css注释 fade-leave-active 
+/*
+ css注释 fade-leave-active 
+*/
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+// css注释 fade-leave-active 
+/*
+ css注释 fade-leave-active 
+*/
+.fade-leave-active {
+  opacity: 0;
+}
+
+/* fade-transform */
+.fade-transform-leave-active,
+// css注释 fade-transform-enter-active 
+/*
+ css注释 fade-transform-enter-active 
+*/
+.fade-transform-enter-active {
+  transition: all .5s;
+}
+
+// css注释 fade-transform-enter 
+/*
+ css注释 fade-transform-enter 
+*/
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+// css注释 fade-transform-leave-to 
+/*
+ css注释 fade-transform-leave-to 
+*/
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+/* breadcrumb transition */
+.breadcrumb-enter-active,
+// css注释 breadcrumb-leave-active 
+/*
+ css注释 breadcrumb-leave-active 
+*/
+.breadcrumb-leave-active {
+  transition: all .5s;
+}
+
+.breadcrumb-enter,
+// css注释 breadcrumb-leave-active 
+/*
+ css注释 breadcrumb-leave-active 
+*/
+.breadcrumb-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+// css注释 breadcrumb-move 
+/*
+ css注释 breadcrumb-move 
+*/
+.breadcrumb-move {
+  transition: all .5s;
+}
+
+// css注释 breadcrumb-leave-active 
+/*
+ css注释 breadcrumb-leave-active 
+*/
+.breadcrumb-leave-active {
+  position: absolute;
+}

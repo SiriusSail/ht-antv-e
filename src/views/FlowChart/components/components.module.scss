@@ -1,0 +1,65 @@
+
+// css注释 border 
+/*
+ css注释 border 
+*/
+.border {
+  border-radius: 4px;
+  border: 1px solid #E5E5E5;
+  margin-top: 20px;
+  height: 100%;
+  padding: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+// css注释 icon 
+/*
+ css注释 icon 
+*/
+.icon {
+  float: right;
+  cursor: pointer;
+}
+// css注释 drafts_title 
+/*
+ css注释 drafts_title 
+*/
+.drafts_title {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+// css注释 drafts 
+/*
+ css注释 drafts 
+*/
+.drafts {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+// css注释 drafts_content 
+/*
+ css注释 drafts_content 
+*/
+.drafts_content {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+// css注释 drafts_foot 
+/*
+ css注释 drafts_foot 
+*/
+.drafts_foot {
+  padding-top: 20px;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}

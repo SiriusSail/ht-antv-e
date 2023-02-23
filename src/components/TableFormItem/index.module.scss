@@ -1,0 +1,117 @@
+// css注释 form 
+/*
+ css注释 form 
+*/
+.form {
+  padding: 20px 20px 0;
+  overflow-y: auto;
+  color: rgb(96, 98, 102);
+}
+// css注释 table_title 
+/*
+ css注释 table_title 
+*/
+.table_title {
+  height: 50px;
+  background: #ecf4ff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  line-height: 10px;
+}
+
+.table_title_icons {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+// css注释 tabs_content 
+/*
+ css注释 tabs_content 
+*/
+.tabs_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+// css注释 tabs_item 
+/*
+ css注释 tabs_item 
+*/
+.tabs_item {
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+// css注释 tabel 
+/*
+ css注释 tabel 
+*/
+.tabel {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+// css注释 tabel_jia 
+/*
+ css注释 tabel_jia 
+*/
+.tabel_jia {
+  color: #76ea0f;
+  margin-bottom: 22px;
+}
+
+// css注释 tabel_jian 
+/*
+ css注释 tabel_jian 
+*/
+.tabel_jian {
+  color: #e14513;
+  margin-bottom: 22px;
+}
+
+// css注释 dynamic_input_item 
+/*
+ css注释 dynamic_input_item 
+*/
+.dynamic_input_item {
+  padding-right: 10px;
+}
+
+// css注释 label_class_name 
+/*
+ css注释 label_class_name 
+*/
+.label_class_name {
+  display: none;
+}
+
+// css注释 text 
+/*
+ css注释 text 
+*/
+.text {
+  padding-bottom: 15px;
+}
+
+// css注释 dynamic_input_item_content 
+/*
+ css注释 dynamic_input_item_content 
+*/
+.dynamic_input_item_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+// css注释 el-date-editor .el-input 
+/*
+ css注释 el-date-editor .el-input 
+*/
+.el-date-editor .el-input {
+  width: 100%;
+}

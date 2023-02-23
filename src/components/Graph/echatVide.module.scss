@@ -1,0 +1,22 @@
+// css注释 echat_content 
+/*
+ css注释 echat_content 
+*/
+.echat_content {
+  > div:first-child {
+    height: 100% !important;
+    width: 100% !important;
+    canvas {
+      height: 100% !important;
+      width: 100% !important;
+    }
+  }
+}
+
+// css注释 content 
+/*
+ css注释 content 
+*/
+.content {
+  padding: 3px;
+}

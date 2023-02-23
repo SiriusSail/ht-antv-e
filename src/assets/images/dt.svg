@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="717px" height="34px" viewBox="0 0 717 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>文字进度</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="领导视图" transform="translate(-199.000000, -232.000000)">
+            <g id="文字进度" transform="translate(191.000000, 232.000000)">
+                <g transform="translate(0.000000, 8.000000)">
+                    <text id="市场到线索" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="9.5" y="13">市场到线索</tspan>
+                    </text>
+                    <text id="线索到订单" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="167.5" y="13">线索到订单</tspan>
+                    </text>
+                    <text id="订单到交付" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="388.5" y="13">订单到交付</tspan>
+                    </text>
+                    <text id="交付到服务" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="619.5" y="13">交付到服务</tspan>
+                    </text>
+                    <line x1="71" y1="7.5" x2="162.4" y2="7.5" id="路径-19" stroke="#DFECFF"></line>
+                    <line x1="231" y1="7.5" x2="383.5" y2="7.5" id="路径-19备份" stroke="#DFECFF"></line>
+                    <line x1="452" y1="7.5" x2="614.5" y2="7.5" id="路径-19备份-2" stroke="#DFECFF"></line>
+                    <circle id="椭圆形" fill="#DFECFF" cx="164" cy="7" r="2"></circle>
+                    <circle id="椭圆形备份-2" fill="#DFECFF" cx="384" cy="7" r="2"></circle>
+                    <circle id="椭圆形备份-3" fill="#DFECFF" cx="616" cy="7" r="2"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

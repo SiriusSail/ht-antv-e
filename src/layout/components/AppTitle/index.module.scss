@@ -1,0 +1,44 @@
+// $url: url(../images/logo.png);
+
+// css注释 logo 
+/*
+ css注释 logo 
+*/
+.logo {
+  height: 38px;
+  cursor: pointer;
+}
+// css注释 background 
+/*
+ css注释 background 
+*/
+.background {
+  width: 100%;
+  height: 80px;
+  background: #1f2d3d no-repeat 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px;
+  // &::before {
+  //   content: "";
+  //   display: block;
+  // }
+}
+
+// css注释 avatar 
+/*
+ css注释 avatar 
+*/
+.avatar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  &::before {
+    content: "";
+    display: block;
+  }
+}

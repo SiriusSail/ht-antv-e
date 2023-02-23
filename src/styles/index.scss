@@ -1,0 +1,300 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+@import "./transition.scss";
+@import "./element-ui.scss";
+@import "./sidebar.scss";
+@import "./icons.scss";
+@import "./icons2.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Arial, sans-serif;
+}
+
+// css注释 msgZindex
+/*
+ css注释 msgZindex 
+*/
+.msgZindex {
+  z-index: 20022 !important;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+// css注释 clearfix
+/*
+ css注释 clearfix 
+*/
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+// css注释 app-container
+/*
+ css注释 app-container 
+*/
+.app-container {
+  padding: 20px;
+}
+
+// 表单的全局样式
+// css注释 mb10
+/*
+ css注释 mb10 
+*/
+.mb10 {
+  margin-bottom: 10px;
+}
+// css注释 ml10
+/*
+ css注释 ml10 
+*/
+.ml10 {
+  margin-left: 10px;
+}
+// css注释 w120
+/*
+ css注释 w120 
+*/
+.w120 {
+  width: 120px;
+}
+// css注释 w140
+/*
+ css注释 w140 
+*/
+.w140 {
+  width: 140px;
+}
+// css注释 w160
+/*
+ css注释 w160 
+*/
+.w160 {
+  width: 160px;
+}
+// css注释 w180
+/*
+ css注释 w180 
+*/
+.w180 {
+  width: 180px;
+}
+// css注释 w200
+/*
+ css注释 w200 
+*/
+.w200 {
+  width: 200px;
+}
+// css注释 w220
+/*
+ css注释 w220 
+*/
+.w220 {
+  width: 220px;
+}
+// css注释 w240
+/*
+ css注释 w240 
+*/
+.w240 {
+  width: 240px;
+}
+// css注释 w260
+/*
+ css注释 w260 
+*/
+.w260 {
+  width: 260px;
+}
+
+body .background-color {
+  background-color: $backgroundColor !important;
+}
+
+// css注释 flex-1
+/*
+ css注释 flex-1 
+*/
+.flex-1 {
+  flex: 1;
+}
+
+// css注释 flex-row
+/*
+ css注释 flex-row 
+*/
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+// css注释 flex-column
+/*
+ css注释 flex-column 
+*/
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+// css注释 form-item-label-justify
+/*
+ css注释 form-item-label-justify 
+*/
+.form-item-label-justify {
+  display: flex;
+  margin-bottom: 22px;
+  label {
+    text-align: justify;
+    text-align-last: justify;
+  }
+}
+
+// css注释 text-justify
+/*
+ css注释 text-justify 
+*/
+.text-justify {
+  text-align: justify;
+  text-align-last: justify;
+}
+// .x6-graph-background, .x6-graph-grid, .x6-graph-svg {
+//   position: relative !important;
+// }
+
+// .x6-graph {
+//   height: auto !important;
+// }
+// 自定义表头样式
+// css注释 slot-header
+/*
+ css注释 slot-header 
+*/
+.slot-header {
+  font-size: 12px;
+  color: #ccc;
+  line-height: 16px;
+}
+[class*="ic-"],
+[class^="ic-"] {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+  font-size: 18px;
+}
+
+// 全局分页样式
+// css注释 col_pagination
+/*
+ css注释 col_pagination 
+*/
+.col_pagination {
+  text-align: right;
+  margin-top: 10px;
+}
+
+// 解决element 边框错位
+// css注释 el-table__header col[name="gutter"]
+/*
+ css注释 el-table__header col[name="gutter"] 
+*/
+.el-table__header col[name="gutter"] {
+  display: table-cell !important;
+}
+// 解决部分粗线
+// css注释 el-table--border::after
+/*
+ css注释 el-table--border::after 
+*/
+.el-table--border::after {
+  width: 0.8px !important;
+}
+
+// css注释 el-table::before
+/*
+ css注释 el-table::before 
+*/
+.el-table::before {
+  z-index: inherit !important;
+}
+
+#ElConfigProvider {
+  height: 100%;
+}
+
+.disable-text {
+  color: #ccc !important;
+}
+.disable-bg {
+  pointer-events: none;
+  background-color: #ccc !important;
+}
+
+.x6-textarea {
+  height: 100%;
+  width: 100%;
+  .textarea-title {
+    text-align: center;
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 25px;
+  }
+  .el-textarea {
+    height: 100%;
+    textarea {
+      height: calc(100% - 25px);
+    }
+  }
+}

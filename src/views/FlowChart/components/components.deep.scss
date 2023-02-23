@@ -1,0 +1,15 @@
+// css注释 flow_chart 
+/*
+ css注释 flow_chart 
+*/
+.flow_chart {
+  .el-tabs__header {
+    overflow: hidden;
+    display: none !important;
+  }
+  
+  .el-drawer__body {
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+}
